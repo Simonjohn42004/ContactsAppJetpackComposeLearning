@@ -12,6 +12,7 @@ import androidx.lifecycle.ViewModelProvider
 import androidx.room.Room
 import com.example.contactsapp.ui.theme.ContactsAppTheme
 
+@Suppress("UNCHECKED_CAST")
 class MainActivity : ComponentActivity() {
     private val db by lazy {
         Room.databaseBuilder(
